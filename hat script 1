@@ -1,16 +1,26 @@
---script made by dot#1020
+-- made by dot#1020
 
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
 local script1 = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
 local script2 = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
 local script3 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
 local script4 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
 local script5 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
 local script6 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
 local KorbloxLeftLeg = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 
 
 ScreenGui.Parent = game.CoreGui
@@ -18,9 +28,9 @@ ScreenGui.Parent = game.CoreGui
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(0, 0, 255)
-main.Position = UDim2.new(0.0391134247, 0, 0.0953177288, 0)
+main.Position = UDim2.new(0.0521512367, 0, 0.0819398016, 0)
 main.Size = UDim2.new(0, 707, 0, 483)
-main.Acitve = true
+main.Active = true
 main.Draggable = true
 
 TextLabel.Parent = main
@@ -32,6 +42,8 @@ TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
+
+UICorner.Parent = TextLabel
 
 script1.Name = "script 1"
 script1.Parent = main
@@ -47,6 +59,9 @@ script1.TextWrapped = true
 script1.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Normal%20Blue%20Valk", true))()
 end)
+
+UICorner_2.Parent = script1
+
 script2.Name = "script 2"
 script2.Parent = main
 script2.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
@@ -61,6 +76,9 @@ script2.TextWrapped = true
 script2.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Ice%20Valk", true))()
 end)
+
+UICorner_3.Parent = script2
+
 script3.Name = "script 3"
 script3.Parent = main
 script3.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
@@ -75,6 +93,9 @@ script3.TextWrapped = true
 script3.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Blue%20Horns", true))()
 end)
+
+UICorner_4.Parent = script3
+
 script4.Name = "script 4"
 script4.Parent = main
 script4.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
@@ -85,10 +106,12 @@ script4.Text = "Fiery Horns "
 script4.TextColor3 = Color3.fromRGB(0, 0, 0)
 script4.TextScaled = true
 script4.TextSize = 14.000
-script3.TextWrapped = true
+script4.TextWrapped = true
 script4.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Red%20Fiery%20Horns", true))()
 end)
+
+UICorner_5.Parent = script4
 
 script5.Name = "script 5"
 script5.Parent = main
@@ -104,6 +127,9 @@ script5.TextWrapped = true
 script5.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/both%20korblox%20legs", true))()
 end)
+
+UICorner_6.Parent = script5
+
 script6.Name = "script 6"
 script6.Parent = main
 script6.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
@@ -118,6 +144,9 @@ script6.TextWrapped = true
 script6.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/headless", true))() 
 end)
+
+UICorner_7.Parent = script6
+
 TextButton.Parent = main
 TextButton.BackgroundColor3 = Color3.fromRGB(17, 52, 255)
 TextButton.Position = UDim2.new(0.199434221, 0, 0.915113866, 0)
@@ -131,6 +160,9 @@ TextButton.TextWrapped = true
 TextButton.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/korblox%20right%20leg", true))() 
 end)
+
+UICorner_8.Parent = TextButton
+
 KorbloxLeftLeg.Name = "Korblox Left Leg\\n"
 KorbloxLeftLeg.Parent = main
 KorbloxLeftLeg.BackgroundColor3 = Color3.fromRGB(11, 47, 255)
@@ -145,3 +177,6 @@ KorbloxLeftLeg.TextWrapped = true
 KorbloxLeftLeg.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/loadstrings/main/korblox%20left%20leg", true))() 
 end)
+UICorner_9.Parent = KorbloxLeftLeg
+
+UICorner_10.Parent = main
