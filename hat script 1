@@ -37,7 +37,7 @@ TextLabel.Parent = main
 TextLabel.BackgroundColor3 = Color3.fromRGB(85, 0, 255)
 TextLabel.Size = UDim2.new(0, 707, 0, 62)
 TextLabel.Font = Enum.Font.Highway
-TextLabel.Text = "scripts hat | Gui made by dot#1020"
+TextLabel.Text = "Ragdoll Gui | Gui made by dot#1020"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -51,13 +51,13 @@ script1.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
 script1.Position = UDim2.new(0, 0, 0.184265018, 0)
 script1.Size = UDim2.new(0, 224, 0, 74)
 script1.Font = Enum.Font.SourceSansBold
-script1.Text = "Valkyrie Helm"
+script1.Text = "Anti Ragdoll"
 script1.TextColor3 = Color3.fromRGB(0, 0, 0)
 script1.TextScaled = true
 script1.TextSize = 14.000
 script1.TextWrapped = true
 script1.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Normal%20Blue%20Valk", true))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/6E3LWbf5", true))()
 end)
 
 UICorner_2.Parent = script1
@@ -68,13 +68,13 @@ script2.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
 script2.Position = UDim2.new(0.683168292, 0, 0.184265018, 0)
 script2.Size = UDim2.new(0, 224, 0, 74)
 script2.Font = Enum.Font.SourceSansBold
-script2.Text = "Ice Valkyrie"
+script2.Text = "infnite yield script"
 script2.TextColor3 = Color3.fromRGB(0, 0, 0)
 script2.TextScaled = true
 script2.TextSize = 14.000
 script2.TextWrapped = true
 script2.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Ice%20Valk", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source", true))()
 end)
 
 UICorner_3.Parent = script2
@@ -85,13 +85,13 @@ script3.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
 script3.Position = UDim2.new(0, 0, 0.478260875, 0)
 script3.Size = UDim2.new(0, 224, 0, 74)
 script3.Font = Enum.Font.SourceSansBold
-script3.Text = "Frozen Horns "
+script3.Text = "fates admin"
 script3.TextColor3 = Color3.fromRGB(0, 0, 0)
 script3.TextScaled = true
 script3.TextSize = 14.000
 script3.TextWrapped = true
 script3.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Blue%20Horns", true))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end)
 
 UICorner_4.Parent = script3
@@ -102,13 +102,13 @@ script4.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
 script4.Position = UDim2.new(0.683168292, 0, 0.478260875, 0)
 script4.Size = UDim2.new(0, 224, 0, 74)
 script4.Font = Enum.Font.SourceSansBold
-script4.Text = "Fiery Horns "
+script4.Text = "tptool "
 script4.TextColor3 = Color3.fromRGB(0, 0, 0)
 script4.TextScaled = true
 script4.TextSize = 14.000
 script4.TextWrapped = true
 script4.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/PewPewBoy/hats/main/Red%20Fiery%20Horns", true))()
+	loadstring(game:HttpGet("https://pastebin.com/raw/GuBiX19e", true))()
 end)
 
 UICorner_5.Parent = script4
@@ -119,7 +119,7 @@ script5.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
 script5.Position = UDim2.new(0, 0, 0.761904776, 0)
 script5.Size = UDim2.new(0, 224, 0, 74)
 script5.Font = Enum.Font.SourceSansBold
-script5.Text = "korblox"
+script5.Text = "korblox 'fake' "
 script5.TextColor3 = Color3.fromRGB(0, 0, 0)
 script5.TextScaled = true
 script5.TextSize = 14.000
@@ -136,7 +136,7 @@ script6.BackgroundColor3 = Color3.fromRGB(16, 60, 163)
 script6.Position = UDim2.new(0.683168292, 0, 0.761904776, 0)
 script6.Size = UDim2.new(0, 224, 0, 74)
 script6.Font = Enum.Font.SourceSansBold
-script6.Text = "headless"
+script6.Text = "headless 'fake'"
 script6.TextColor3 = Color3.fromRGB(0, 0, 0)
 script6.TextScaled = true
 script6.TextSize = 14.000
